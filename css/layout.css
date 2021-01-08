@@ -1,0 +1,111 @@
+/*TODO: DELETE CSS !!*/
+body {
+    background-color: orange;
+}
+
+/*END DELETE CSS*/
+
+.container {
+    margin: 0 auto;
+
+    overflow: hidden;
+}
+
+/* HEADER CSS */
+.header {
+    padding: 28px 5% 17px 5%;
+    overflow: hidden;
+}
+
+.header-logo {
+    float: left;
+
+    padding-bottom: 8px;
+}
+
+.header-menu {
+    color: white;
+    width: 20px;
+    height: 20px;
+
+    float: right;
+}
+
+.header-menu:hover + .header-link {
+    display: block;
+    padding: 10px 10px;
+
+    width: 100%;
+    text-align: right;
+}
+
+.header-link {
+    display: none;
+    float: right;
+    list-style: none;
+}
+
+.header-link li {
+    padding: 3px 0;
+}
+
+.header-link li a {
+    text-decoration: none;
+    color: white;
+
+    padding-bottom: 8px;
+}
+
+.header-link li a:hover {
+    color: #fce38a;
+
+    border-bottom: 3px solid #fce38a;
+}
+
+/* END HEADER CSS */
+
+/* START BODY CSS */
+.body {
+
+}
+
+/* END BODY CSS */
+
+
+@media only screen and (min-width: 480px) {
+    body {
+        /*background-color: black;*/
+    }
+}
+
+@media only screen and (min-width: 760px) {
+    .header-menu {
+        display: none;
+    }
+
+    .header-link {
+        display: inline;
+        float: right;
+    }
+
+    .header-link li {
+        display: inline;
+        padding-left: 20px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .container {
+        max-width: 1082px;
+    }
+
+    .header {
+        padding: 29px 29px;
+    }
+
+
+    .header-link li {
+        display: inline;
+        padding-left: 55px;
+    }
+}
