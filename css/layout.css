@@ -344,6 +344,7 @@ body {
 .what-we-do-img {
     width: 40%;
     float: left;
+    display: none;
 }
 
 .what-we-do-img img {
@@ -354,8 +355,8 @@ body {
 .what-we-do-content {
     text-align: left;
     padding-left: 10%;
-    width: 40%;
-    float: left;
+    width: 80%;
+    /*float: left;*/
 }
 
 .what-we-do-title {
@@ -452,6 +453,12 @@ body {
         padding: 10px 1%;
     }
 
+    .what-we-do-content {
+        text-align: left;
+        padding-left: 10%;
+        width: 80%;
+    }
+
     /*END BODY CSS*/
 }
 
@@ -499,6 +506,17 @@ body {
     .service-body-container {
         text-align: center;
         overflow: hidden;
+    }
+
+    .what-we-do-img {
+        display: block;
+    }
+
+    .what-we-do-content {
+        float: left;
+        text-align: left;
+        padding-left: 10%;
+        width: 40%;
     }
 
     /*END BODY CSS*/
