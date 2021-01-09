@@ -22,7 +22,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
 
-    height: 100vh;
+    height: 90vh;
     padding: 28px 12px 17px 12px;
 }
 
@@ -113,15 +113,43 @@ body {
 }
 
 .progress-container {
-    overflow: hidden;
+    color: white;
+    position: absolute;
+    width: 90%;
+
+    left: 50%;
+    top: 87vh;
+    transform: translateX(-50%);
 }
 
-.progress li {
-    display: inline;
+.progress {
+    text-align: center;
+    float: left;
+
+    width: 23%;
+    margin: 1% 1%;
+}
+
+.progress-bar-container {
+    width: 100%;
+    background-color: white;
 }
 
 .progress-bar {
+    width: 0;
+    height: 3px;
+    margin-bottom: 10px;
+    background-color: #f38181;
+}
 
+.current-placing-count {
+    font-weight: bold;
+    font-size: 20px;
+    display: none;
+}
+
+.current-placing {
+    font-size: 12px;
 }
 
 /* END HEADER CSS */
@@ -141,6 +169,7 @@ body {
 }
 
 @media only screen and (min-width: 760px) {
+    /* HEADER CSS */
     .header {
         padding: 28px 5% 17px 5%;
     }
@@ -158,6 +187,12 @@ body {
         display: inline;
         padding-left: 20px;
     }
+
+    .current-placing-count {
+        display: block;
+    }
+
+    /* HEADER CSS */
 }
 
 @media only screen and (min-width: 1024px) {
@@ -165,6 +200,7 @@ body {
         max-width: 1082px;
     }
 
+    /* HEADER CSS */
     .header {
         padding: 28px 18px 17px 28px;
     }
@@ -174,4 +210,11 @@ body {
         display: inline;
         padding-left: 55px;
     }
+
+    .current-placing-count {
+        display: inline;
+        margin-right: 7px;
+    }
+
+    /* HEADER CSS */
 }
