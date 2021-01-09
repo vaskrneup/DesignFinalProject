@@ -106,9 +106,8 @@ body {
 
 
 .header-body-border {
-    margin: 0 auto;
     width: 60px;
-    padding-bottom: 73px;
+    margin: 0 auto 73px;
     border-bottom: 3px solid white;
 }
 
@@ -177,7 +176,8 @@ body {
 }
 
 .section {
-    padding: 110px 10px;
+    padding: 110px 0;
+    margin: 0 10px;
 }
 
 .section-title-container {
@@ -263,12 +263,40 @@ body {
     cursor: pointer;
 }
 
+.section-achievements {
+    width: 100%;
+    background-color: #95e1d3;
+
+    overflow: hidden;
+}
+
+
+.achievement {
+    text-align: center;
+    /*float: left;*/
+    padding: 20px 20%;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.achievement-count {
+    font-size: 50px;
+}
+
+.achievement-subject {
+    font-size: 11px;
+}
+
 /* END BODY CSS */
 
 
 @media only screen and (min-width: 480px) {
     .img-wrapper {
         width: 45%;
+    }
+
+    .achievement {
+        padding: 20px 20%;
+        float: left;
     }
 }
 
@@ -294,6 +322,11 @@ body {
 
     .current-placing-count {
         display: block;
+    }
+
+    .achievement {
+        padding: 20px 78px;
+        float: left;
     }
 
     /* HEADER CSS */
