@@ -431,7 +431,7 @@ body {
     width: 90%;
 }
 
-.slider-body img {
+.slider-image {
     float: left;
     width: 10%;
     padding: 42px 40px;
@@ -515,6 +515,24 @@ body {
     height: 100%;
 }
 
+.profile-pic-container {
+    margin: 0 auto;
+}
+
+.profile-pic {
+    background-image: url("../image/body_images/profile_pic.png");
+    background-position: center;
+    border-radius: 50%;
+
+    /*float: left;*/
+    width: 212px;
+    height: 212px;
+}
+
+.comment-data {
+    margin-top: 50px;
+}
+
 /* END BODY CSS */
 
 
@@ -578,7 +596,7 @@ body {
         width: 70%;
     }
 
-    .slider-body img {
+    .slider-image {
         display: inline;
     }
 
@@ -589,6 +607,10 @@ body {
 
     .gallery-col {
         width: 300px;
+    }
+
+    .profile-pic {
+        float: left;
     }
 
     /*END BODY CSS*/
