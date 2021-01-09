@@ -491,6 +491,18 @@ body {
     font-size: 10px;
 }
 
+
+.section-brand {
+    background-color: #f8f8f8;
+    overflow: hidden;
+
+    width: 100%;
+}
+
+.brand-container img {
+    padding: 20px 20px;
+}
+
 /* END BODY CSS */
 
 
@@ -556,6 +568,11 @@ body {
 
     .slider-body img {
         display: inline;
+    }
+
+    .brand-container img {
+        margin: 0 1%;
+        width: 10%;
     }
 
     /*END BODY CSS*/
