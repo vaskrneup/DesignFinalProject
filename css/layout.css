@@ -15,8 +15,6 @@ body {
 
 .container {
     margin: 0 auto;
-
-    overflow: hidden;
 }
 
 .theme-container {
@@ -312,12 +310,33 @@ body {
     overflow: hidden;
 }
 
-.service-title {
-
+.section-design {
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("../image/body_images/mountain.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.service-container {
+.section-design-front {
+    padding: 110px 0 0 0;
+    margin: 0 10px;
+}
 
+.tab {
+    width: 60%;
+}
+
+.design-outer-devices {
+    position: relative;
+    top: 4px;
+}
+
+.mobile {
+    position: relative;
+    top: 100px;
+    right: 200px;
+    width: 30%;
+    min-width: 50px;
 }
 
 /* END BODY CSS */
