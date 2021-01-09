@@ -646,10 +646,12 @@ body {
 .section-footer {
     overflow: hidden;
     margin: 30px 0;
+
+    border-bottom: 1px solid #e5e5e5;
 }
 
 .footer-col {
-    width: 33%;
+    width: 100%;
     float: left;
 }
 
@@ -733,6 +735,11 @@ body {
 .instagram-pics-gallery img {
     width: 100px;
     height: 100px;
+}
+
+
+.section-copyright {
+    margin-bottom: 20px;
 }
 
 /* END BODY CSS */
@@ -833,6 +840,11 @@ body {
     }
 
     .blog-col {
+        width: 33%;
+        float: left;
+    }
+
+    .footer-col {
         width: 33%;
         float: left;
     }
