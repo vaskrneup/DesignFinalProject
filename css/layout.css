@@ -207,14 +207,26 @@ body {
     width: 100%;
 }
 
-.about-us-img {
+.first-about-img {
+    background-image: url("../image/body_images/computer_desk.png");
+}
+
+.second-about-img {
     background-image: url("../image/body_images/populated_desk.png");
+}
+
+.third-about-img {
+    background-image: url("../image/body_images/non_populated_desk.png");
+}
+
+.about-us-img {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 90%;
     height: 100%;
 }
+
 
 .about-us-img-info {
     color: white;
@@ -229,7 +241,18 @@ body {
     position: relative;
     bottom: 10px;
     box-shadow: 10px 10px #95e1d3;
+}
+
+.first-about-img:hover {
+    background-image: linear-gradient(to bottom, rgba(244, 140, 130, 0.5), rgba(239, 215, 137, 0.73)), url("../image/body_images/computer_desk.png");
+}
+
+.second-about-img:hover {
     background-image: linear-gradient(to bottom, rgba(244, 140, 130, 0.5), rgba(239, 215, 137, 0.73)), url("../image/body_images/populated_desk.png");
+}
+
+.third-about-img:hover {
+    background-image: linear-gradient(to bottom, rgba(244, 140, 130, 0.5), rgba(239, 215, 137, 0.73)), url("../image/body_images/non_populated_desk.png");
 }
 
 .about-us-img:hover + .about-us-img-info {
@@ -245,7 +268,7 @@ body {
 
 @media only screen and (min-width: 480px) {
     .img-wrapper {
-        width: 381px;
+        width: 45%;
     }
 }
 
@@ -277,6 +300,10 @@ body {
 }
 
 @media only screen and (min-width: 1220px) {
+    .img-wrapper {
+        width: 381px;
+    }
+
     .container {
         max-width: 1220px;
     }
