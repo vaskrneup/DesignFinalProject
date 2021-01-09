@@ -210,7 +210,7 @@ body {
 
 .about-us-img-container {
     width: 100%;
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
 
 .img-wrapper {
@@ -476,6 +476,19 @@ body {
 
 .third-meet-team-img:hover {
     background-image: linear-gradient(to bottom, rgba(244, 140, 130, 0.5), rgba(239, 215, 137, 0.73)), url("../image/body_images/team-2.png");
+}
+
+.team-intro {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.team-intro h1 {
+    font-size: 20px;
+}
+
+.team-intro h3 {
+    font-size: 10px;
 }
 
 /* END BODY CSS */
