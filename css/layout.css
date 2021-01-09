@@ -21,6 +21,21 @@ body {
     width: 100%;
 }
 
+.theme-attribute {
+    float: left;
+    height: 4px;
+    width: 10%;
+    max-width: 60px;
+
+    background-color: #f38181;
+    margin-right: 4px;
+    margin-top: 10px;
+}
+
+.theme-attribute-name {
+    font-size: 20px;
+}
+
 .theme-bottom-border {
     width: 60px;
     border: 3px solid #f38181;
@@ -174,7 +189,7 @@ body {
 }
 
 .section {
-    padding: 110px 0;
+    padding: 60px 0;
     margin: 0 10px;
 
     overflow: hidden;
@@ -400,6 +415,44 @@ body {
     display: none;
 }
 
+.left-slider {
+    width: 10%;
+    float: left;
+}
+
+.right-container {
+    width: 80%;
+    float: left;
+}
+
+.slider-body {
+    float: left;
+    width: 90%;
+}
+
+.slider-body img {
+    float: left;
+    width: 10%;
+    padding: 42px 40px;
+    border: 2px solid #95e1d3;
+    display: none;
+}
+
+.comment-body {
+    padding: 10px;
+    float: left;
+    width: 100%;
+}
+
+.right-slider {
+    float: right;
+}
+
+.section-comments {
+    overflow: hidden;
+    background-color: #f8f8f8;
+}
+
 /* END BODY CSS */
 
 
@@ -457,6 +510,14 @@ body {
         text-align: left;
         padding-left: 10%;
         width: 80%;
+    }
+
+    .comment-body {
+        width: 70%;
+    }
+
+    .slider-body img {
+        display: inline;
     }
 
     /*END BODY CSS*/
