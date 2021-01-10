@@ -666,6 +666,7 @@ body {
 
 
 .section-map {
+    padding: 57px 0;
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.73)), url("../image/body_images/map_bg.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -685,7 +686,7 @@ body {
 
 .section-footer {
     overflow: hidden;
-    margin: 30px 0;
+    padding: 75px 1%;
 
     border-bottom: 1px solid #e5e5e5;
 }
@@ -695,8 +696,16 @@ body {
     float: left;
 }
 
+.center-footer {
+    text-align: center;
+}
+
+.center-footer-email {
+    margin: 0 auto;
+}
+
 .company-description {
-    margin: 10px 0 30px 0;
+    margin: 45px 0 50px 0;
 }
 
 .follower-count {
@@ -734,7 +743,7 @@ body {
 
 .submit-btn {
     margin: 8px 0;
-    padding: 13px 20px;
+    padding: 13px 2%;
     outline: none;
     border: none;
 
