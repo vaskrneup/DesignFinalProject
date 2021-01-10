@@ -625,6 +625,10 @@ body {
     max-width: 380px;
 }
 
+.post-image {
+    object-fit: contain;
+}
+
 
 .section-blog {
     /*overflow: hidden;*/
@@ -932,11 +936,6 @@ body {
         width: 80%;
     }
 
-    .blog-col {
-        width: 33%;
-        float: left;
-    }
-
     .footer-col {
         width: 33%;
         float: left;
@@ -961,6 +960,15 @@ body {
 
     .comment-data {
         margin-top: 50px;
+    }
+
+    .post-container {
+        margin: 0 5px;
+    }
+
+    .blog-col {
+        width: 33%;
+        float: left;
     }
 }
 
@@ -1025,6 +1033,10 @@ body {
     .slider-image {
         display: inline;
         margin-right: 60px;
+    }
+
+    .post-container {
+        margin: 0 20px;
     }
 
     /*END BODY CSS*/
