@@ -33,6 +33,7 @@ body {
 }
 
 .theme-attribute-name {
+    padding: 10px 0 10px;
     font-size: 20px;
 }
 
@@ -429,6 +430,9 @@ body {
 }
 
 .left-slider {
+    position: relative;
+    top: 50px;
+
     width: 10%;
     float: left;
 }
@@ -443,6 +447,19 @@ body {
     width: 90%;
 }
 
+.section-message {
+    padding: 0 0 135px 0;
+}
+
+.left-slider-message {
+    position: relative;
+    top: 80px;
+}
+
+.right-slider-message {
+    margin-top: 30px;
+}
+
 .slider-image {
     float: left;
     width: 10%;
@@ -452,13 +469,17 @@ body {
 }
 
 .comment-body {
-    padding: 10px;
+    /*padding: 10px;*/
     float: left;
     width: 100%;
 }
 
 .right-slider {
     float: right;
+    position: relative;
+    top: 50px;
+
+    padding-left: 10px;
 }
 
 .section-comments {
@@ -539,6 +560,8 @@ body {
     /*float: left;*/
     width: 212px;
     height: 212px;
+
+    display: none;
 }
 
 .comment-data {
@@ -845,6 +868,8 @@ body {
 
     .profile-pic {
         float: left;
+        display: block;
+        margin-right: 30px;
     }
 
     .review-col {
