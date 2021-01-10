@@ -539,6 +539,7 @@ body {
 
 
 .gallery-col {
+    width: 50%;
     float: left;
 }
 
@@ -904,14 +905,13 @@ body {
         margin: 80px auto;
     }
 
-
     .brand-container img {
         margin: 0 1%;
         width: 10%;
     }
 
     .gallery-col {
-        width: 300px;
+        width: 25%;
     }
 
     .profile-pic {
