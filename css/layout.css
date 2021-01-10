@@ -900,6 +900,11 @@ body {
         margin-right: 30px;
     }
 
+    .meet-team-image-wrapper {
+        margin: 80px auto;
+    }
+
+
     .brand-container img {
         margin: 0 1%;
         width: 10%;
