@@ -710,6 +710,7 @@ body {
 
 .center-footer-email {
     margin: 0 auto;
+    width: 80%
 }
 
 .company-description {
@@ -770,6 +771,7 @@ body {
 
 .footer-col-title {
     margin-bottom: 40px;
+    text-align: center;
 }
 
 .footer-blog-col-img {
@@ -937,8 +939,35 @@ body {
     }
 
     .footer-col {
-        width: 33%;
+        width: 30%;
         float: left;
+        margin: 0 10px;
+        overflow: hidden;
+    }
+
+    .center-footer {
+        text-align: left;
+    }
+
+    .center-footer-email {
+        margin: 0;
+    }
+
+    .footer-blog-data {
+        margin-top: 0;
+    }
+
+    .footer-col-title {
+        text-align: left;
+    }
+
+    .footer-blog {
+        margin: 0;
+    }
+
+    .footer-instagram-center {
+        margin: 0;
+        text-align: left;
     }
 
     /*END BODY CSS*/
