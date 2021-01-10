@@ -235,6 +235,12 @@ body {
     width: 100%;
 }
 
+
+.meet-team-image-wrapper {
+    margin: 40px auto;
+}
+
+
 .first-about-img {
     background-image: url("../image/body_images/computer_desk.png");
 }
@@ -835,6 +841,11 @@ body {
         margin: 20px auto;
     }
 
+    .meet-team-image-wrapper {
+        margin: 80px auto;
+    }
+
+
     .achievement {
         padding: 20px 20%;
         float: left;
@@ -907,9 +918,6 @@ body {
         margin-right: 30px;
     }
 
-    .meet-team-image-wrapper {
-        margin: 80px auto;
-    }
 
     .brand-container img {
         margin: 0 1%;
@@ -1004,7 +1012,9 @@ body {
 
 @media only screen and (min-width: 1220px) {
     .img-wrapper {
-        width: 381px;
+        float: left;
+        width: 380px;
+        margin: 0 7px;
     }
 
     .container {
