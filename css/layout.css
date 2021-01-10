@@ -227,11 +227,11 @@ body {
 
 .img-wrapper {
     float: left;
-    padding: 10px 0;
+    /*padding: 30px 0;*/
 
-    margin: 0 10%;
+    margin: 40px 0;
     height: 251px;
-    width: 90%;
+    width: 100%;
 }
 
 .first-about-img {
@@ -250,7 +250,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 90%;
+    width: 100%;
     height: 100%;
 }
 
@@ -391,7 +391,6 @@ body {
 .what-we-do-title {
     overflow: hidden;
     padding: 15px;
-    margin-left: 10px;
     border: 1px solid #e5e5e5;
 }
 
@@ -402,6 +401,7 @@ body {
 .what-we-do-classification {
     position: relative;
     bottom: 8px;
+    padding: 10px;
 }
 
 .wwd-title-right {
@@ -418,7 +418,6 @@ body {
 
     overflow-y: auto;
     padding: 15px;
-    margin-left: 10px;
 
     border-right: 1px solid #e5e5e5;
     border-left: 1px solid #e5e5e5;
