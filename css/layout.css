@@ -352,22 +352,24 @@ body {
 }
 
 .tab {
+    position: relative;
+    left: 35px;
     width: 60%;
 }
 
 .design-outer-devices {
     position: relative;
     top: 4px;
-
+    width: 100%;
 }
 
 .mobile {
     position: relative;
-    top: 100px;
-    right: 200px;
+    top: 50px;
+    right: 55px;
     width: 30%;
-    min-width: 50px;
 }
+
 
 .what-we-do-img {
     width: 50%;
@@ -804,6 +806,19 @@ body {
         width: 48%;
         margin: 0;
         padding: 10px 1%;
+    }
+
+
+    .tab {
+        position: relative;
+        left: 110px;
+        width: 60%;
+    }
+
+    .mobile {
+        position: relative;
+        top: 100px;
+        right: 90px;
     }
 
     .what-we-do-content {
