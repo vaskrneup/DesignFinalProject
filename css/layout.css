@@ -618,6 +618,10 @@ body {
     position: relative;
     padding: 20px 10px;
     /*overflow: hidden;*/
+
+    margin: 0 auto;
+
+    max-width: 380px;
 }
 
 
@@ -628,7 +632,6 @@ body {
 .blog-col {
     width: 100%;
     float: left;
-
 }
 
 .post-image img {
