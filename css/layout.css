@@ -249,7 +249,7 @@ p {
     font-family: 'Kaushan Script', cursive;
 }
 
-.section-body-container p {
+.about-us-paragraph {
     font-family: 'Roboto', sans-serif;
     font-weight: lighter;
     font-size: 13px;
@@ -490,7 +490,10 @@ p {
 }
 
 .what-we-do-classification-body p {
-    margin-bottom: 0;
+    margin: 0;
+    text-align: left;
+
+    font-size: 13px;
 }
 
 
@@ -991,7 +994,7 @@ p {
 
 
 @media only screen and (min-width: 480px) {
-    .section-body-container p {
+    .about-us-paragraph {
         text-align: center;
         margin-left: auto;
         margin-right: auto;
@@ -1043,7 +1046,7 @@ p {
 }
 
 @media only screen and (min-width: 760px) {
-    .section-body-container p {
+    .about-us-paragraph {
         width: 70%;
     }
 
