@@ -373,6 +373,10 @@ p {
     border-bottom: 1px solid #e5e5e5;
 }
 
+.last {
+    border-bottom: none;
+}
+
 .service-icon {
     text-align: center;
     /*float: left;*/
@@ -1098,6 +1102,9 @@ p {
         padding: 10px 1%;
     }
 
+    .last-1 {
+        border-bottom: none;
+    }
 
     .tab {
         position: relative;
@@ -1279,6 +1286,18 @@ p {
         padding: 10px 1%;
 
         border-bottom: 1px solid #e5e5e5;
+    }
+
+    .last {
+        border: none;
+    }
+
+    .last-1 {
+        border: none;
+    }
+
+    .last-2 {
+        border-bottom: none;
     }
 
     .service-icon {
