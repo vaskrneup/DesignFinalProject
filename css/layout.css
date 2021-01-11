@@ -489,6 +489,11 @@ p {
     border-bottom: 1px solid #e5e5e5;
 }
 
+.what-we-do-classification-body p {
+    margin-bottom: 0;
+}
+
+
 .collapsed-classification {
     display: none;
 }
@@ -938,6 +943,8 @@ p {
 .footer-blog-col {
     float: left;
     width: 79%;
+
+    margin-bottom: 20px;
 }
 
 .footer-blog-img {
