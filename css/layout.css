@@ -129,7 +129,7 @@ p {
     position: absolute;
 
     left: 50%;
-    top: 20vh;
+    top: 15vh;
     transform: translateX(-50%);
 
     text-align: center;
@@ -995,7 +995,6 @@ p {
 }
 
 /* END BODY CSS */
-
 
 @media only screen and (min-width: 480px) {
     .about-us-paragraph {
