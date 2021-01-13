@@ -288,14 +288,17 @@ p {
 
 .first-about-img {
     background-image: url("../image/body_images/computer_desk.png");
+    max-width: 390px;
 }
 
 .second-about-img {
     background-image: url("../image/body_images/populated_desk.png");
+    max-width: 390px;
 }
 
 .third-about-img {
     background-image: url("../image/body_images/non_populated_desk.png");
+    max-width: 388px;
 }
 
 .about-us-img {
@@ -324,14 +327,17 @@ p {
 
 .first-about-img:hover {
     background-image: linear-gradient(to bottom, rgba(244, 140, 130, 0.5), rgba(239, 215, 137, 0.73)), url("../image/body_images/computer_desk.png");
+    max-width: 390px;
 }
 
 .second-about-img:hover {
     background-image: linear-gradient(to bottom, rgba(244, 140, 130, 0.5), rgba(239, 215, 137, 0.73)), url("../image/body_images/populated_desk.png");
+    max-width: 390px;
 }
 
 .third-about-img:hover {
     background-image: linear-gradient(to bottom, rgba(244, 140, 130, 0.5), rgba(239, 215, 137, 0.73)), url("../image/body_images/non_populated_desk.png");
+    max-width: 388px;
 }
 
 .about-us-img:hover + .about-us-img-info {
@@ -414,6 +420,7 @@ p {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    max-width: 1920px;
 }
 
 .section-design-front {
@@ -579,27 +586,33 @@ p {
 
 .first-meet-team-img {
     background-image: url("../image/body_images/team-0.png");
+    max-width: 875px;
 }
 
 .second-meet-team-img {
     background-image: url("../image/body_images/team-1.png");
+    max-width: 594px;
 }
 
 .third-meet-team-img {
     background-image: url("../image/body_images/team-2.png");
+    max-width: 871px;
 }
 
 
 .first-meet-team-img:hover {
     background-image: linear-gradient(to bottom, rgba(244, 140, 130, 0.5), rgba(239, 215, 137, 0.73)), url("../image/body_images/team-0.png");
+    max-width: 875px;
 }
 
 .second-meet-team-img:hover {
     background-image: linear-gradient(to bottom, rgba(244, 140, 130, 0.5), rgba(239, 215, 137, 0.73)), url("../image/body_images/team-1.png");
+    max-width: 594px;
 }
 
 .third-meet-team-img:hover {
     background-image: linear-gradient(to bottom, rgba(244, 140, 130, 0.5), rgba(239, 215, 137, 0.73)), url("../image/body_images/team-2.png");
+    max-width: 871px;
 }
 
 .team-intro {
@@ -669,6 +682,8 @@ p {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+
+    max-width: 1920px;
 }
 
 .review-col {
@@ -819,6 +834,8 @@ p {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+
+    max-width: 1908px;
 }
 
 .map-text {
