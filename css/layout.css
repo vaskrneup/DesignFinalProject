@@ -90,7 +90,7 @@ p {
     top: 30px;
     background-color: black;
     z-index: 100;
-    
+
     display: block;
     padding: 10px 10px;
     text-align: right;
@@ -247,6 +247,10 @@ p {
 .section-title {
     text-align: center;
     margin-bottom: 40px;
+}
+
+.section-title span {
+    font-size: 32px;
 }
 
 .section-title h3 {
@@ -766,6 +770,10 @@ p {
     left: -10px
 }
 
+.post-publish-date h3 {
+    font-size: 32px;
+}
+
 .post-publish-date span {
     font-family: 'Roboto', sans-serif;
     font-style: italic;
@@ -816,6 +824,8 @@ p {
 .map-text {
     color: #f38181;
     margin-bottom: 22px;
+
+    font-size: 32px;
 }
 
 .map-line {
