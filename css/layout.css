@@ -283,8 +283,38 @@ p {
 
 .meet-team-image-wrapper {
     margin: 40px auto;
+    position: relative;
 }
 
+.meet-team-image-wrapper:hover .about-us-social-links {
+    display: block;
+}
+
+.about-us-social-links {
+    position: absolute;
+    top: 100px;
+    left: 70px;
+    background-color: #fce38a;
+
+    display: none;
+}
+
+.social-link-wrapper {
+    padding: 17px 15px;
+    border-right: 1px solid #f38181;
+}
+
+.social-link-wrapper {
+    float: left;
+}
+
+.about-us-social-links img.last-logo {
+    border-right: none;
+}
+
+.about-us-social-links div:hover {
+    background-color: #f38181;
+}
 
 .first-about-img {
     background-image: url("../image/body_images/computer_desk.png");
@@ -649,6 +679,7 @@ p {
 .gallery-col {
     width: 50%;
     float: left;
+    position: relative;
 }
 
 .image-gallery img {
