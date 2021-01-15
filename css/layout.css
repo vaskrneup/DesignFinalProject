@@ -1,9 +1,3 @@
-/*TODO: DELETE CSS !!*/
-body {
-    /*background-color: orange;*/
-}
-
-/*END DELETE CSS*/
 p {
     color: #999999;
 }
@@ -286,7 +280,7 @@ p {
     position: relative;
 }
 
-.meet-team-image-wrapper:hover .about-us-social-links {
+.about-us-img:hover .about-us-social-links {
     display: block;
 }
 
@@ -302,13 +296,10 @@ p {
 .social-link-wrapper {
     padding: 17px 15px;
     border-right: 1px solid #f38181;
-}
-
-.social-link-wrapper {
     float: left;
 }
 
-.about-us-social-links img.last-logo {
+.last-social-link-wrapper {
     border-right: none;
 }
 
